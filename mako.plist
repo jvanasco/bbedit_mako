@@ -3,10 +3,10 @@
 	"http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <!--
-	BBEdit codeless language module for Apache configuration files.
+	BBEdit codeless language module for Mako Templates.
 	Jonathan Vanasco
-	Version 0.0.2
-	2015.07.16
+	Version 0.0.3
+	2018.01.27
 
 	Released under the MIT license
 		http://opensource.org/licenses/MIT
@@ -149,6 +149,8 @@
 				\)\s*
 			)?
 		['"]\s*>
+		(?s:.+?)
+	    </%def>
     )
 )
 ]]>
